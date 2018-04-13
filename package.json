@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "unique-random-array": "^1.0.0",
-    "word-list": "^2.0.0"
+    "word-list": "github:bejebus/word-list"
   },
   "devDependencies": {
     "ava": "*",
