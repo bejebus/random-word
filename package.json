@@ -12,9 +12,6 @@
   "engines": {
     "node": ">=4"
   },
-  "scripts": {
-    "test": "xo && ava"
-  },
   "files": [
     "index.js"
   ],
@@ -28,11 +25,6 @@
     "dictionary"
   ],
   "dependencies": {
-    "unique-random-array": "^1.0.0",
     "word-list": "github:bejebus/word-list"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
   }
 }
