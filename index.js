@@ -19,10 +19,11 @@ module.exports = function(count, delimiter) {
     let min = 0;
     let a = [];
     for(var i = 0; i < count; i++) {
+		if(list.length === 0)
+            list = getList();
         let max = list.length;
         let index = rando(min, max);
-        if(list.length === 0)
-            list = getList();
+        
         let word = list.splice(index, 1);
         a.push(word);
     }
